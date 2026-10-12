@@ -1,0 +1,4 @@
+model = "gpt-6-luna"
+model_reasoning_effort = "high"
+sandbox_mode = "read-only"
+developer_instructions = "Follow only this repository's AGENTS.md. Do not read CLAUDE.md or any other instruction file."
