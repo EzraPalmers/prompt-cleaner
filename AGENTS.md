@@ -136,7 +136,8 @@ Suspect transcription issues:
 
 No context, alternatives, confirmation request or cleaned prompt in that reply. The user replies with the numbers
 that need correction and the intended words; omitted numbers are accepted as transcribed, and a marked phrase the
-user repeats or confirms is accepted exactly and not asked about again. Then clean the whole transcript, sentence by
+user repeats or confirms is accepted exactly and not asked about again. A reply of just "skip" means clean at once,
+keeping every listed phrase as transcribed but unconfirmed, not confirmed. Then clean the whole transcript, sentence by
 sentence, with every rule above, applying each correction only to its phrase. The result is a fully cleaned prompt,
 never the transcript with only the corrected phrases changed. Never put a placeholder for an unresolved phrase into a
 cleaned prompt. Raise the list only for material ambiguity; with none, return the cleaned prompt immediately.
